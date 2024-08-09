@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/buy-detail.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 flex justify-between items-center">
+            <div class="flex flex-wrap items-center justify-between pl-7 p-3">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="assets/img/logo.svg" class="" alt="Flowbite Logo" />
+                </a>
+            </div>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">About</a>
+                    </li>
+                    <li>
+                        <a href="fag.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">FAG</a>
+                    </li>
+                    <li>
+                        <a href="blog.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login flex items-center me-8">
+                <div class="add me-5">
+                    <a href="" class="flex items-center justify-center">
+                        <div class="flex items-center justify-center">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        Add New Property
+                    </a>
+                </div>
+                <div class="sign-up me-3">
+                    <a href="" class="flex justify-between items-center">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Sign Up
+                    </a>
+                </div>
+                <div class="sign-in me-3">
+                    <a href="">
+                        <i class="fa-solid fa-lock"></i>
+                        Sign In
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="detail-banner pt-[50px]" style="background-color: #0E0E46; opacity: 0.8;">
+            <div class="flex flex-col justify-center items-center" style="padding: 100px 0;">
+                <h1>Rent Details</h1>
+                <ul class="flex ">
+                    <li class="me-1">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <span class="me-1">/</span>
+                    <li>
+                        Rent Details
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div>
+            <img src="assets/img/line-bg.png" alt="">
+        </div>
+
+        <section class="buy-detailview" style="background: #F7F6FF;padding: 80px 0;">
+            <div class="max-w-screen-xl mx-auto flex justify-between">
+                <div class="buy-btn">
+                    <div class="flex">
+                        <div class="buy">
+                            <span>Buy</span>
+                        </div>
+                        <div class="appartment ml-2">
+                            <span>Appartment</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <h1>Modern Apartment in the City Center</h1>
+                        <img src="assets/img/location-icon.svg" class="mt-4 ml-2" alt="">
+                    </div>
+                    <div>
+                        <p><i class="me-2 fa-solid fa-location-dot"></i>318-330 S Oakley Blvd, Chicago, IL 60612, USA
+                        </p>
+                    </div>
+                </div>
+                <div class="latest-update">
+                    <div class="flex flex-col justify-end items-end">
+                        <h5>Last Updated on : 15 Jan 2023</h5>
+                        <p>$4,000</p>
+                    </div>
+                    <ul class="other-pages flex ">
+                        <li class="me-3"><a href="javascript:void(0);"><i class="fa-solid fa-share"></i> Share</a></li>
+                        <li class="me-3"><a href="compare.html"><i class="fa-solid fa-code-pull-request me-2"></i>Add to
+                                Compare</a></li>
+                        <li><a href="javascript:void(0);"><i class="fa-regular fa-heart me-1"></i>Wishlist</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-screen-xl mx-auto">
+
+        <section class="buy-detailview" style="background: #F7F6FF;padding: 80px 0;">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="flex justify-between">
+                    <div class="w-[60%]">
+                        <div id="default-carousel" class="relative " data-carousel="slide">
+                            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/img/rent-detail-01.jpg"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/img/rent-detail-02.jpg"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/img/rent-detail-03.jpg"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/img/rent-detail-04.jpg"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/img/rent-detail-05.jpg"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button type="button"
+                                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                                data-carousel-prev>
+                                <span
+                                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                    <svg class="w-4 h-4 text-gray-400 dark:text-gray-800 rtl:rotate-180"
+                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M5 1 1 5l4 4" />
+                                    </svg>
+                                    <span class="sr-only">Previous</span>
+                                </span>
+                            </button>
+                            <button type="button"
+                                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                                data-carousel-next>
+                                <span
+                                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                    <svg class="w-4 h-4 text-gray-400 dark:text-gray-800 rtl:rotate-180"
+                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m1 9 4-4-4-4" />
+                                    </svg>
+                                    <span class="sr-only">Next</span>
+                                </span>
+                            </button>
+                        </div>
+                        <div id="accordion-collapse" class="accordion mt-12" data-accordion="collapse">
+                            <h2 id="accordion-collapse-heading-1">
+                                <button type="select"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+                                    aria-controls="accordion-collapse-body-1">
+                                    <span style="color: #0E0E46; background-color: #F7F6FF;">Overview</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-collapse-body-1" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-1">
+                                <div
+                                    class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <ul class="property-overview flex justify-between items-center">
+                                        <li class="flex flex-col justify-center items-center">
+                                            <i class="fa-solid fa-bed"></i>
+                                            <p>4 Beds</p>
+                                        </li>
+                                        <li class="flex flex-col justify-center items-center">
+                                            <i class="fa-solid fa-bath"></i>
+                                            <p>4 Baths</p>
+                                        </li>
+                                        <li class="flex flex-col justify-center items-center">
+                                            <i class="fa-brands fa-accusoft"></i>
+                                            <p>35000 Sqft</p>
+                                        </li>
+                                        <li class="flex flex-col justify-center items-center">
+                                            <i class="fa-solid fa-warehouse"></i>
+                                            <p>2 Garages</p>
+                                        </li>
+                                        <li class="flex flex-col justify-center items-center">
+                                            <i class="fa-regular fa-calendar-days"></i>
+                                            <p>Year Built: 2005</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h2 id="accordion-collapse-heading-2">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
+                                    aria-controls="accordion-collapse-body-2">
+                                    <span style="color: #0E0E46; background-color: #F7F6FF;">Description</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-collapse-body-2" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-2">
+                                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <p class="mb-2 text-gray-500 dark:text-gray-400">Good road frontage on a paved
+                                        county road with utilities make it an amazing setting for your dream country
+                                        getaway! If you like views, you must see this property!,</p>
+                                    <p class="text-gray-500 dark:text-gray-400">This property is mostly wooded and sits
+                                        high on a hilltop overlooking the Mohawk River Valley. Located right in the
+                                        heart of Upstate NYs Amish farm Country, this land is certified organic making
+                                        it extremely rare! Good road frontage on a paved county road with utilities make
+                                        it an amazing setting for your dream country getaway! If you like views, you
+                                        must see this property!This property is mostly wooded and sits high on a hilltop
+                                        overlooking the Mohawk River Valley. Located right in the heart of Upstate NYs
+                                        Amish farm Country, this land is certified organic making it extremely rare!
+                                        Good road frontage on a paved county road with utilities make it an amazing
+                                        setting for your dream country getaway! If you like views, you must see this
+                                        property!</p>
+                                </div>
+                            </div>
+                            <h2 id="accordion-collapse-heading-3">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
+                                    aria-controls="accordion-collapse-body-2">
+                                    <span style="color: #0E0E46; background-color: #F7F6FF;">Property Address</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-collapse-body-3" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-3">
+                                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <ul class="property-address ">
+                                        <li>Address : <span> Ferris Park</span></li>
+                                        <li>City : <span> Jersey City </span></li>
+                                        <li>State/County : <span> New Jersey State</span></li>
+                                        <li>Country : <span> United States</span></li>
+                                        <li>Zip : <span> 07305</span></li>
+                                        <li>Area : <span> Greenville</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h2 id="accordion-collapse-heading-4">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-collapse-body-4" aria-expanded="false"
+                                    aria-controls="accordion-collapse-body-2">
+                                    <span style="color: #0E0E46; background-color: #F7F6FF;">Property Details</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-collapse-body-4" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-4">
+                                <div
+                                    class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <div>
+                                        <ul class="property-details">
+                                            <li>Property Id : <span> 22972</span></li>
+                                            <li>Price : <span> $ 860,000 </span></li>
+                                            <li>Price Info: <span> $ 1,098 /sq ft</span></li>
+                                            <li>Property Size : <span> 190 ft2</span></li>
+                                            <li>Property Lot Size : <span> 1,200 ft2</span></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="property-details">
+                                            <li> Rooms : <span> 10</span></li>
+                                            <li>Bedrooms : <span> 5</span></li>
+                                            <li>Bathrooms : <span> 6</span></li>
+                                            <li>Custom Id : <span> 68</span></li>
+                                            <li>Garages : <span> 2</span></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="property-details">
+                                            <li>Year Built : <span> 2005</span></li>
+                                            <li>Garage Size : <span> 2 cars </span></li>
+                                            <li>Available From : <span>18-11-2023</span></li>
+                                            <li>Structure Type : <span> Brick</span></li>
+                                            <li>Floors No : <span> 3</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 id="accordion-collapse-heading-5">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-collapse-body-5" aria-expanded="false"
+                                    aria-controls="accordion-collapse-body-5">
+                                    <span style="color: #0E0E46; background-color: #F7F6FF;">Amenities</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-collapse-body-5" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-5">
+                                <div
+                                    class="flex justify-between p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                    <div>
+                                        <ul class="amenities-list">
+                                            <li><i class="fa-solid fa-fan"></i> Air Conditioning</li>
+                                            <li><i class="fa-solid fa-person-swimming"></i> Swimming Pools</li>
+                                            <li><i class="fa-solid fa-house-medical"></i> Sporting Facilities</li>
+                                            <li><i class="fa-solid fa-dumbbell"></i> Gym</li>
+                                            <li><i class="fa-solid fa-cubes-stacked"></i> Clubhouse</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="amenities-list">
+                                            <li><i class="fa-solid fa-worm"></i> Landscaped Gardens</li>
+                                            <li><i class="fa-solid fa-tree"></i> Wide-Open Spaces</li>
+                                            <li><i class="fa-solid fa-tree"></i> Parks </li>
+                                            <li><i class="fa-brands fa-usps"></i> Package Lockers</li>
+                                            <li><i class="fa-solid fa-spa"></i> Spa</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="amenities-list">
+                                            <li><i class="fa-solid fa-camera"></i> Surveillance Cameras</li>
+                                            <li><i class="fa-solid fa-table-list"></i> Billiards Table</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="theiaStickySidebar">
+                        <div class="contact-btn">
+                            <a href="">
+                                <button>
+                                    <i class="fa-solid fa-info"></i>
+                                    Request Info
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-video"></i>
+                                    Schedule a Visit
+                                </button>
+                            </a>
+                        </div>
+                        <div class="user-active flex">
+                            <a href="">
+                                <img src="assets/img/avatar-03.jpg" alt="">
+                            </a>
+                            <div class="user-name ml-2">
+                                <h4>
+                                    <a href="javascript:void(0);">John Collins</a>
+                                </h4>
+                                <p> Company Agent</p>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Your Email">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Your Phone Number">
+                            </div>
+                            <div>
+                                <textarea name="" placeholder="Yes, I'm Interested" id=""></textarea>
+                            </div>
+                            <a href="">
+                                <button>Send Email</button>
+                            </a>
+
+                            <div class="flex justify-between">
+                                <a href="">
+                                    <button class="call"><i class="fa-solid fa-phone me-2"></i> Call Us</button>
+                                </a>
+                                <a href="">
+                                    <button class="wp"><i class="fa-brands fa-whatsapp me-2"></i> Whatsapp</button>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="" style="background-color: #0D1329; padding: 20px 0;">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+
+                <div class="footer-content-heading mb-6 md:mb-0">
+
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <span class="self-center whitespace-nowrap">Get Our App</span>
+                    </a>
+
+                    <div class="social-links mt-12">
+                        <h4>Connect with us</h4>
+                        <ul class="flex justify-between">
+                            <li class="me-2"><a href=""><i class="fa-brands fa-facebook-f hi-icon"></i></a></li>
+                            <li class="me-2"><a href=""><i class="fa-brands fa-instagram hi-icon"></i></a></li>
+                            <li class="me-2"><a href=""><i class="fa-brands fa-behance hi-icon"></i></a></li>
+                            <li class="me-2"><a href=""><i class="fa-brands fa-twitter hi-icon"></i></a></li>
+                            <li class="me-2"><a href=""><i class="fa-brands fa-pinterest-p hi-icon"></i></a></li>
+                            <li class="me-2"><a href=""><i class="fa-brands fa-linkedin hi-icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="footer-widget-list flex sm:grid-cols-3">
+                    <div class="me-12">
+                        <h2 class="mb-6 text-white uppercase">Quick Links</h2>
+                        <ul class="">
+                            <li class="mb-4">
+                                <a href="index.html" class=""><span>></span> Home</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="about.html" class=""><span>></span> About</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="fag.html" class=""><span>></span> FAG</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="blog.html" class=""><span>></span> Blog</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="contact.html" class=""><span>></span> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-white uppercase">Explore</h2>
+                        <ul class="">
+                            <li class="mb-4">
+                                <a href="rent-property.html" class=""><span>></span> Rent Property</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="buy-property.html" class=""><span>></span> Buy Property</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class=""><span>></span> Sign In</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class=""><span>></span> Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
+
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-white sm:text-center">© 2023 <a href="https://flowbite.com/"
+                        class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                </span>
+                <div class="company-logo flex mt-4 items-center sm:justify-center sm:mt-0">
+                    <p>a product of</p>
+                    <a href="">
+                        <img src="assets/img/company-logo.png" alt="Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

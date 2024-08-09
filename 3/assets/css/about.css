@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-banner h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: white;
+}
+.about-banner li{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-banner li:nth-child(1):hover{
+    color: #FCAF3D;
+    transition: .5s;
+}
+.about-banner span{
+    color: #FCAF3D;
+    font-size: 14px;
+    font-weight: 600;
+}
+.aboutus-section .about-content h6{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    color: #6C60FE;
+    font-weight: 700;
+}
+.aboutus-section .about-content h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 42px;
+    max-width: 657px;
+    color: #0E0E46;
+    font-weight: 700;
+}
+.aboutus-section .about-content p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    max-width: 1280px;
+    color:#8A909A;
+    font-weight: 400;
+}
+
+.about-counter-sec .about-listing-img .about-listing img{
+    max-width: 415px;
+    border-radius: 20px;
+}
+
+.counter-sec .counter-box{
+    border-radius: 20px;
+    background-color: white;
+    padding: 40px 80px 40px 80px;
+}
+.counter-sec .counter-box:hover{
+    background-color: #6C60FE;
+    transition: .5s;
+}
+.counter-sec .counter-box:hover h3{
+    color: white;
+}
+.counter-sec .counter-box:hover h5{
+    color: white;
+}
+
+.counter-sec .counter-box h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    color: #0E0E46;
+    font-weight: 700;
+}
+.counter-sec .counter-box h5{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: #8A909A;
+    font-weight: 500;
+}
+
+.book-section .book-listing h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+}
+.book-section .book-content p:nth-child(1){
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+.book-section .book-content p span{
+    color: #FCAF3D;
+}
+.book-section .book-content p:nth-child(2){
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+.book-section .book-content p:nth-child(3){
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    max-width: 600px;
+}

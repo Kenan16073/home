@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-banner h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: white;
+}
+.contact-banner li{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-banner li:nth-child(1):hover{
+    color: #FCAF3D;
+    transition: .5s;
+}
+.contact-banner span{
+    color: #FCAF3D;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-section .card h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0 0 16px;
+    color: #0E0E46;
+}
+.contact-section .card p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 0 16px;
+    max-width: 710px;
+    color: #8A909A;
+}
+.contact-section .card button{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #6C60FE;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 15px;
+}
+.contact-section .card button:hover{
+    background-color: #F6F6F9;
+    color: #8A909A;
+    transition: .5s;
+}
+.contact-section .card{
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    max-width: 630px;
+}
+.contact-info-sec .info-form h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #0E0E46;
+    padding: 0 0 20px;
+}
+.contact-info-sec .info-form .form-group label{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #0E0E46;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-info-sec .info-form .form-group input{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F6F6F9;
+    border: 1px solid #f4f4f4;
+    font-size: 14px;
+    color: #0E0E46;
+    min-height: 50px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    width: 281px;
+
+}
+.contact-info-sec .info-form .form-group input:focus{
+    box-shadow: none;
+    outline: 0 none;
+    border-color: #EEEEEE;
+    background-color: white;
+}
+
+.contact-info-sec .info-form .form-group-name label{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #0E0E46;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-info-sec .info-form .form-group-name input{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F6F6F9;
+    border: 1px solid #f4f4f4;
+    font-size: 14px;
+    color: #0E0E46;
+    min-height: 50px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+.contact-info-sec .info-form .form-group-name input:focus{
+    box-shadow: none;
+    outline: 0 none;
+    border-color: #EEEEEE;
+    background-color: white;
+}
+.contact-info-sec .info-form .form-group select{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F6F6F9;
+    border: 1px solid #f4f4f4;
+    font-size: 14px;
+    color: #0E0E46;
+    min-height: 50px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    width: 280px !important;
+}
+.contact-info-sec .info-form .form-group select:focus{
+    box-shadow: none;
+    outline: 0 none;
+    border-color: #EEEEEE;
+}
+.contact-info-sec .info-form .form-group-area label{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #0E0E46;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-info-sec .info-form .form-group-area textarea{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F6F6F9;
+    border: 1px solid #f4f4f4;
+    font-size: 14px;
+    color: #0E0E46;
+    min-height: 50px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+}
+.contact-info-sec .info-form .form-group-area textarea:focus{
+    box-shadow: none;
+    outline: 0 none;
+    border-color: #EEEEEE;
+    background-color: white;
+}
+
+.contact-info-sec .info-form button{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #6C60FE;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 15px;
+    margin-top: 20px;
+}
+.contact-info-sec .info-form button:hover{
+    background-color: #F6F6F9;
+    color: #8A909A;
+    transition: .5s;
+}
+.contact-info-sec .info-form{
+    width: 50%;
+    border: 0.5px solid #e5e5e5;
+    padding: 20px;
+}
+.contact-info-sec .info h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #0E0E46;
+    padding: 0 0 20px;
+}
+.contact-info-sec .info .contact .icon{
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    margin: 0 8px 0 0;
+    height: 72px;
+    width: 72px;
+}
+.contact-info-sec .info .contact .icon i{
+    font-size: 20px;
+    color: #0d6efd;
+}
+.contact-info-sec .info .contact h4{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #0E0E46;
+}
+.contact-info-sec .info .contact a{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #8A909A;
+}
+.contact-info-sec .info .contact{
+    display: flex;
+}
+
+.contact-info-sec .info{
+    width: 50%;
+    border: 0.5px solid #e5e5e5;
+    padding: 20px;
+}

@@ -1,0 +1,162 @@
+@media (max-width: 1400px) {
+    .home-banner form .keyword{
+        width: 180px;
+    }
+    .home-banner form #countries{
+        width: 320px;
+    }
+}
+@media (max-width: 1250px){
+    .about-counter-sec .about-listing-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .about-counter-sec .about-listing-img .about-listing img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .fag .fag-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    .select .main-property-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .select .main-property-sec .img-card{
+        width: 100%;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .home-banner form .keyword{
+        width: 150px;
+        padding-left: 20px;
+    }
+    .home-banner form #countries{
+        width: 300px;
+    }
+}
+@media (max-width: 1150px){
+    .book-section .book {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .home-banner form .keyword{
+        width: 150px;
+        padding-left: 20px;
+    }
+    .home-banner form #countries{
+        width: 280px;
+    }
+    .home-banner form .email{
+        width: 150px;
+        padding-left: 20px;
+    }
+    .home-banner .title h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1100px){
+    .subscribe .news-letter-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .counter-sec .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 989px){
+    .aboutus-section .about-content h1{
+        font-size: 36px;
+    }
+    .fag .fag-content h1{
+        font-size: 28px;
+    }
+    .fag .fag-content p{
+        font-size: 18px;
+    }
+    .home-banner .title{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    .home-banner .title h1{
+        font-size: 28px;
+    }
+    .home-banner .title h1 br{
+        display: none;
+    }
+    .home-banner form {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-banner form .keyword{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .home-banner form #countries{
+        width: 100%;
+    }
+    .home-banner form .email{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .home-banner form .price{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .home-banner form .search {
+        width: 100%;
+    }
+}
+@media (max-width: 939px){
+    .latest-blog .swiper-slide .card img{
+        width: 100%;
+    }
+    .testimonials .swiper-slide .card{
+        width: 100%;
+    }
+    .sales .card-wrapper .card{
+        width: 100%;
+        
+    }
+    .sales .card-wrapper .card .card-img{
+        background-size: 100%;
+        background-position: center;
+    }
+    .sales .card-wrapper .card .card-img .price{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 730px){
+    .worth .worth-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 650px){
+    .subscribe .news-letter-sec form button{
+        width: 100%;
+    }
+}
+@media (max-width: 510px){
+    .book-section .book .book-listing h1{
+        font-size: 26px;
+    }
+    .subscribe .news-letter-sec form input{
+        width: 100%;
+    }
+}

@@ -87,7 +87,7 @@
       <div class="" style="
             background-image: url(assets/img/banner.jpg);
             width: 100%;
-            height: 657px;
+            height: max-width;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -103,9 +103,9 @@
             3000+ listings for you to choose
           </h4>
         </div>
-        <div style="margin-left: 95px; margin-top: 40px">
-          <div class="w3-container">
-            <div class="w3-bar">
+        <div class="max-w-screen-xl mx-auto" style=" margin-top: 40px">
+          <div class="w3-container flex justify-center flex-col items-center">
+            <div class="w3-bar flex justify-center">
               <button class="w3-bar-item tablink w3-indigo w3-hover-indigo flex justify-center items-center"
                 onclick="openCity(event,'Buy')">
                 <i class="fa-solid fa-house me-2"></i> Buy a Property
@@ -115,9 +115,9 @@
                 <i class="fa-solid fa-house-user me-2"></i> Rent a Property
               </button>
             </div>
-            <div id="Buy" class="city flex">
-              <form action="" class="max-w-screen-xl mx-auto flex ml-8">
-                <div class="me-3 mt-8">
+            <div id="Buy" class="city">
+              <form action="" class="max-w-screen-xl mx-auto flex justify-center pb-10">
+                <div class="me-4 mt-8">
                   <input class="keyword placeholder-gray-900" placeholder="Enter Keyword" type="text" />
                 </div>
                 <div class="me-3 mt-8">
@@ -144,7 +144,7 @@
               </form>
             </div>
             <div id="Rent" class="city" style="display: none">
-              <form action="" class="max-w-screen-xl mx-auto flex ml-8">
+              <form action="" class="max-w-screen-xl mx-auto flex justify-center pb-10">
                 <div class="me-3 mt-8">
                   <input class="keyword placeholder-gray-900" placeholder="Enter Keyword" type="text" />
                 </div>
@@ -196,7 +196,9 @@
         </div>
         <div class="slide-container swiper">
           <div class="slide-content">
-            <div class="card-wrapper swiper-wrapper housesOfSale"></div>
+            <div class="card-wrapper swiper-wrapper housesOfSale">
+              
+            </div>
           </div>
           <div class="all flex justify-center mt-10">
             <a href="">
@@ -240,7 +242,7 @@
 
     <section class="worth">
       <div class="max-w-screen-xl mx-auto">
-        <div class="flex justify-between">
+        <div class="worth-box flex justify-between">
           <div class="box">
             <img src="assets/img/counter-icon-1.svg" alt="" />
             <div class="flex flex-col">
@@ -505,7 +507,7 @@
 
     <section class="fag pt-[80px] pb-12" style="background-color: #f7f6ff">
       <div class="max-w-screen-xl mx-auto">
-        <div class="flex justify-between">
+        <div class="fag-content flex justify-between">
           <div>
             <img src="assets/img/faq-img.jpg" alt="" />
           </div>
@@ -973,7 +975,7 @@
     </div>
 
     <section class="subscribe bg-gray-500" style="background-color: #f7f6ff">
-      <div class="max-w-screen-xl mx-auto flex justify-between items-center" style="padding: 80px 0">
+      <div class="news-letter-sec max-w-screen-xl mx-auto flex justify-between items-center" style="padding: 80px 0">
         <div>
           <h1>Sign Up for Our Newsletter</h1>
           <p class="mt-3">

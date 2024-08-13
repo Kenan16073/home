@@ -129,7 +129,7 @@ nav .add a div i {
 .w3-bar .w3-bar-item {
     font-family: "Plus Jakarta Sans", sans-serif;
     width: 180px;
-    height: 60px;
+    height: max-content;
     border-radius: 10px;
     transition: 0.5s;
     font-weight: 500;
@@ -143,8 +143,8 @@ nav .add a div i {
 }
 
 .w3-container .city {
-    max-width: 1296px;
-    height: 120px;
+    width: 100%;
+    height: max-content;
     margin-top: 30px;
     background-color: white;
     border-radius: 10px;
@@ -644,7 +644,7 @@ nav .add a div i {
     color: #8A909A;
     font-weight: 500;
     font-size: 18px;
-    width: 860px;
+    max-width: 860px;
 }
 
 .fag .accordion button span {

@@ -1,5 +1,5 @@
 "use strict"
-
+AOS.init();
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
@@ -271,16 +271,6 @@ function HousesOfSale() {
                                         </div>
                                     </a>
                                     <div class=" max-w-screen-xl mx-auto p-5">
-                                        <div>
-                                            <div class="star flex items-center">
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <p><span>4.0</span>(28 Reviews)</p>
-                                            </div>
-                                        </div>
                                         <a href="buy-detail.html">
                                             <h3 class="">
                                                 ${house.title}
@@ -356,16 +346,6 @@ function HousesOfRent() {
                                         </div>
                                     </a>
                                     <div class=" max-w-screen-xl mx-auto p-5">
-                                        <div>
-                                            <div class="star flex items-center">
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <p><span>4.0</span>(28 Reviews)</p>
-                                            </div>
-                                        </div>
                                         <a href="rent-detail.html">
                                             <h3 class="">
                                                 ${house.title}
@@ -429,3 +409,5 @@ function HousesOfRent() {
 
 }
 HousesOfRent()
+
+

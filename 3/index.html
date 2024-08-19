@@ -11,23 +11,25 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/slick/slick-theme.css" />
   <link rel="stylesheet" href="assets/slick/slick.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
+  <script src="//unpkg.com/alpinejs" defer></script>
   <title>Document</title>
 </head>
 
 <body>
-  
+
   <header>
     <nav class="bg-white border-gray-200 dark:bg-gray-900 flex justify-between items-center">
-      <div class="flex flex-wrap items-center justify-between pl-7 p-3">
+      <div data-aos-duration="1300" data-aos="fade-right" class="flex flex-wrap items-center justify-between pl-7 p-3">
         <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="assets/img/logo.svg" class="" alt="Flowbite Logo" />
         </a>
       </div>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <div data-aos-duration="1300" data-aos="fade-down" class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
           class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
@@ -57,7 +59,7 @@
           </li>
         </ul>
       </div>
-      <div class="login flex items-center me-8">
+      <div data-aos-duration="1300" data-aos="fade-left" class="login flex items-center me-8">
         <div class="add me-5">
           <a href="" class="flex items-center justify-center">
             <div class="flex items-center justify-center">
@@ -92,7 +94,7 @@
             background-repeat: no-repeat;
             background-size: cover;
           ">
-        <div class="title">
+        <div data-aos-duration="1300" data-aos="fade-right" class="title">
           <h1>
             Find Your Best Dream House for
             <br />
@@ -106,16 +108,18 @@
         <div class="max-w-screen-xl mx-auto" style=" margin-top: 40px">
           <div class="w3-container flex justify-center flex-col items-center">
             <div class="w3-bar flex justify-center">
-              <button class="w3-bar-item tablink w3-indigo w3-hover-indigo flex justify-center items-center"
+              <button data-aos-duration="1300" data-aos="fade-right"
+                class="w3-bar-item tablink w3-indigo w3-hover-indigo flex justify-center items-center"
                 onclick="openCity(event,'Buy')">
                 <i class="fa-solid fa-house me-2"></i> Buy a Property
               </button>
-              <button class="w3-bar-item tablink ml-8 w3-hover-indigo flex justify-center items-center"
+              <button data-aos-duration="1300" data-aos="fade-left"
+                class="w3-bar-item tablink ml-8 w3-hover-indigo flex justify-center items-center"
                 onclick="openCity(event,'Rent')">
                 <i class="fa-solid fa-house-user me-2"></i> Rent a Property
               </button>
             </div>
-            <div id="Buy" class="city">
+            <div data-aos-duration="1300" data-aos="fade-up" id="Buy" class="city">
               <form action="" class="max-w-screen-xl mx-auto flex justify-center pb-10">
                 <div class="me-4 mt-8">
                   <input class="keyword placeholder-gray-900" placeholder="Enter Keyword" type="text" />
@@ -143,7 +147,7 @@
                 </div>
               </form>
             </div>
-            <div id="Rent" class="city" style="display: none">
+            <div data-aos-duration="1300" data-aos="fade-right" id="Rent" class="city" style="display: none">
               <form action="" class="max-w-screen-xl mx-auto flex justify-center pb-10">
                 <div class="me-3 mt-8">
                   <input class="keyword placeholder-gray-900" placeholder="Enter Keyword" type="text" />
@@ -178,7 +182,7 @@
 
     <section class="sales" style="background-color: #f7f6ff">
       <div class="max-w-screen-xl mx-auto">
-        <div class="start flex flex-col justify-center items-center">
+        <div data-aos-duration="1300" data-aos="fade-down" class="start flex flex-col justify-center items-center">
           <h2 class="mt-[50px]">Featured Properties for Sales</h2>
           <div class="flex mt-3">
             <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
@@ -194,10 +198,10 @@
             </button>
           </div>
         </div>
-        <div class="slide-container swiper">
+        <div data-aos-duration="1300" data-aos="fade-up" class="slide-container swiper">
           <div class="slide-content">
             <div class="card-wrapper swiper-wrapper housesOfSale">
-              
+
             </div>
           </div>
           <div class="all flex justify-center mt-10">
@@ -211,7 +215,7 @@
 
     <section class="sales pt-12 pb-12" style="background-color: #f7f6ff">
       <div class="max-w-screen-xl mx-auto">
-        <div class="start flex flex-col justify-center items-center">
+        <div data-aos-duration="1300" data-aos="fade-down" class="start flex flex-col justify-center items-center">
           <h2 class="mt-[50px]">Featured Properties for Rent</h2>
           <div class="flex mt-3">
             <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
@@ -227,7 +231,7 @@
             </button>
           </div>
         </div>
-        <div class="slide-container swiper">
+        <div data-aos-duration="1300" data-aos="fade-up" class="slide-container swiper">
           <div class="slide-contentTwo">
             <div class="card-wrapper swiper-wrapper housesOfRent"></div>
           </div>
@@ -243,28 +247,28 @@
     <section class="worth">
       <div class="max-w-screen-xl mx-auto">
         <div class="worth-box flex justify-between">
-          <div class="box">
+          <div data-aos-duration="1300" data-aos="fade-right" class="box">
             <img src="assets/img/counter-icon-1.svg" alt="" />
             <div class="flex flex-col">
               <h1><span id="count1">20</span>K</h1>
               <p>Listings Added</p>
             </div>
           </div>
-          <div class="box">
+          <div data-aos-duration="1300" data-aos="fade-up" class="box">
             <img src="assets/img/counter-icon-2.svg" alt="" />
             <div class="flex flex-col">
               <h1><span id="count2">1260</span>+</h1>
               <p>Agents Listed</p>
             </div>
           </div>
-          <div class="box">
+          <div data-aos-duration="1300" data-aos="fade-down" class="box">
             <img src="assets/img/counter-icon-3.svg" alt="" />
             <div class="flex flex-col">
               <h1><span id="count3">819</span>+</h1>
               <p>Sales Completed</p>
             </div>
           </div>
-          <div class="box">
+          <div data-aos-duration="1300" data-aos="fade-left" class="box">
             <img src="assets/img/counter-icon-4.svg" alt="" />
             <div class="flex flex-col">
               <h1><span id="count4">2050</span>+</h1>
@@ -279,7 +283,7 @@
       <div class="max-w-screen-xl mx-auto">
         <div class="main-property-sec">
           <a href="buy-property.html">
-            <div class="img-card w-[416px] h-[555px]" style="
+            <div data-aos-duration="1300" data-aos="fade-right" class="img-card w-[416px] h-[555px]" style="
                   border-radius: 15px;
                   background-image: url(assets/img/property-img-1.jpg);
                   background-repeat: no-repeat;
@@ -295,7 +299,7 @@
             </div>
           </a>
           <a href="">
-            <div class="img-card w-[416px] h-[555px]" style="
+            <div data-aos-duration="1300" data-aos="fade-up" class="img-card w-[416px] h-[555px]" style="
                   border-radius: 15px;
                   background-image: url(assets/img/property-img-2.jpg);
                   background-repeat: no-repeat;
@@ -311,7 +315,7 @@
             </div>
           </a>
           <a href="rent-property.html">
-            <div class="img-card w-[416px] h-[555px]" style="
+            <div data-aos-duration="1300" data-aos="fade-left" class="img-card w-[416px] h-[555px]" style="
                   border-radius: 15px;
                   background-image: url(assets/img/property-img-3.jpg);
                   background-repeat: no-repeat;
@@ -335,7 +339,7 @@
           background-image: url(assets/img/testimonial-bg.png);
         ">
       <div class="ml-8">
-        <div class="start flex flex-col justify-center items-center">
+        <div data-aos-duration="1300" data-aos="fade-down" class="start flex flex-col justify-center items-center">
           <h2 class="mt-[50px]">Testimonials</h2>
           <div class="flex mt-3">
             <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
@@ -343,7 +347,7 @@
           </div>
           <p class="mt-3">What our happy client says</p>
         </div>
-        <div class="slide-container swiper mt-10">
+        <div data-aos-duration="1300" data-aos="fade-up" class="slide-container swiper mt-10">
           <div class="slide-contentTwo">
             <div class="card-wrapper swiper-wrapper">
               <div class="swiper-slide">
@@ -494,7 +498,7 @@
             </div>
           </div>
         </div>
-        <div class="slideButton flex justify-center m-7">
+        <div data-aos-duration="1300" data-aos="fade-up" class="slideButton flex justify-center m-7">
           <button class="prev mr-7" data-carousel-prev>
             <i style="transform: rotate(3.142rad)" class="fa-solid fa-arrow-right"></i>
           </button>
@@ -508,22 +512,24 @@
     <section class="fag pt-[80px] pb-12" style="background-color: #f7f6ff">
       <div class="max-w-screen-xl mx-auto">
         <div class="fag-content flex justify-between">
-          <div>
+          <div data-aos-duration="1300" data-aos="fade-right">
             <img src="assets/img/faq-img.jpg" alt="" />
           </div>
           <div class="ml-8">
             <div>
-              <h1>Frequently Asked Questions</h1>
-              <div class="flex mt-4">
-                <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
-                <div class="w-[46px] h-[6px]" style="background-color: #fd3358; border-radius: 30px"></div>
+              <div data-aos-duration="1300" data-aos="fade-left">
+                <h1>Frequently Asked Questions</h1>
+                <div class="flex mt-4">
+                  <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
+                  <div class="w-[46px] h-[6px]" style="background-color: #fd3358; border-radius: 30px"></div>
+                </div>
+                <p class="mt-4">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt
+                </p>
               </div>
-              <p class="mt-4">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                odit aut fugit, sed quia consequuntur magni dolores eos qui
-                ratione voluptatem sequi nesciunt
-              </p>
-              <div class="accordion">
+              <div data-aos-duration="1300" data-aos="fade-up" class="accordion">
                 <div id="accordion-collapse" class="mt-10" data-accordion="collapse">
                   <h2 id="accordion-collapse-heading-1">
                     <button type="button"
@@ -720,7 +726,7 @@
 
     <section class="latest-blog pt-12 pb-12" style="background-color: #f7f6ff">
       <div class="max-w-screen-xl mx-auto">
-        <div class="start flex flex-col items-center">
+        <div data-aos-duration="1300" data-aos="fade-down" class="start flex flex-col items-center">
           <h1>Latest Blog</h1>
           <div class="flex mt-4">
             <div class="w-[16px] h-[6px] mr-2" style="background-color: #fd3358; border-radius: 30px"></div>
@@ -734,7 +740,7 @@
         <div class="slide-container swiper mt-10">
           <div class="slide-contentTwo">
             <div class="card-wrapper swiper-wrapper">
-              <div class="swiper-slide">
+              <div data-aos-duration="1300" data-aos="fade-right" class="swiper-slide">
                 <div
                   class="card bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
@@ -780,7 +786,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div data-aos-duration="1300" data-aos="fade-up" class="swiper-slide">
                 <div
                   class="card bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
@@ -826,7 +832,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div data-aos-duration="1300" data-aos="fade-left" class="swiper-slide">
                 <div
                   class="card bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
@@ -976,14 +982,14 @@
 
     <section class="subscribe bg-gray-500" style="background-color: #f7f6ff">
       <div class="news-letter-sec max-w-screen-xl mx-auto flex justify-between items-center" style="padding: 80px 0">
-        <div>
+        <div data-aos-duration="1300" data-aos="fade-right">
           <h1>Sign Up for Our Newsletter</h1>
           <p class="mt-3">
             Lorem ipsum dolor sit amet, consecte tur cing elit. Suspe ndisse
             suscipit sagittis
           </p>
         </div>
-        <div>
+        <div data-aos-duration="1300" data-aos="fade-left">
           <form action="">
             <input type="email" placeholder="Enter Email Address" />
             <button>Subscribe</button>
@@ -1000,13 +1006,10 @@
   <footer class="" style="background-color: #0D1329; padding: 20px 0;">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
-
-        <div class="footer-content-heading mb-6 md:mb-0">
-
+        <div data-aos-duration="1300" data-aos="fade-right" class="footer-content-heading mb-6 md:mb-0">
           <a href="https://flowbite.com/" class="flex items-center">
             <span class="self-center whitespace-nowrap">Get Our App</span>
           </a>
-
           <div class="social-links mt-12">
             <h4>Connect with us</h4>
             <ul class="flex justify-between">
@@ -1019,9 +1022,7 @@
             </ul>
           </div>
         </div>
-
-
-        <div class="footer-widget-list flex sm:grid-cols-3">
+        <div data-aos-duration="1300" data-aos="fade-left" class="footer-widget-list flex sm:grid-cols-3">
           <div class="me-12">
             <h2 class="mb-6 text-white uppercase">Quick Links</h2>
             <ul class="">
@@ -1061,11 +1062,7 @@
           </div>
         </div>
       </div>
-
-
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-
-
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-white sm:text-center">© 2023 <a href="https://flowbite.com/"
             class="hover:underline">Flowbite™</a>. All Rights Reserved.
@@ -1080,12 +1077,19 @@
     </div>
   </footer>
 
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
 
   <script src="assets/js/jquery-3.6.4.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script src="assets/js/backtotop.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 

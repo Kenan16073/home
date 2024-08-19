@@ -141,16 +141,6 @@ function HousesOfSale() {
                                         </div>
                                     </a>
                                     <div class=" max-w-screen-xl mx-auto p-5">
-                                        <div>
-                                            <div class="star flex items-center">
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <i class="fa-solid fa-star me-1"></i>
-                                                <p><span style="color: #878789; ">4.0</span>(28 Reviews)</p>
-                                            </div>
-                                        </div>
                                         <a href="#">
                                             <h3 class="">
                                                 ${house.title}

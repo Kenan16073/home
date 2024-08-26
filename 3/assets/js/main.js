@@ -1,4 +1,3 @@
-"use strict"
 AOS.init();
 function openCity(evt, cityName) {
   var i, x, tablinks;
@@ -409,5 +408,3 @@ function HousesOfRent() {
 
 }
 HousesOfRent()
-
-

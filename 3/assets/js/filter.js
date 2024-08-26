@@ -114,11 +114,12 @@ function HousesOfSale() {
   let result = "";
   let content = document.querySelector(".fillteredOfSale");
 
+  let isPriceChange = (!changeableData.minPrice) || Number(house.price) >= Number(changeableData.minPrice) &&
+  (!changeableData.maxPrice) || Number(house.price) <= Number(changeableData.maxPrice)
+
   Houses.forEach((house) => {
     if (
-      house.property === changeableData.selectValue &&
-      Number(house.price) >= Number(changeableData.minPrice) &&
-      Number(house.price) <= Number(changeableData.maxPrice)
+      house.property === changeableData.selectValue && isPriceChange
     ) {
       result += `<div class="swiper-slide">
                                 <div class="card w-[416px] mt-10 bg-white border shadow" style="border-radius: 10px;">

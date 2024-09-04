@@ -1,9 +1,9 @@
 "use strict"
 const changeable = localStorage.getItem("changeableData");
 const changeableData = JSON.parse(changeable);
-console.log(changeableData.selectValue);
+console.log(changeable);
 
-const Houses = [
+const Houses2 = [
   {
     title: "Summer House",
     price: 63000,
@@ -114,76 +114,74 @@ function HousesOfSale() {
   let result = "";
   let content = document.querySelector(".fillteredOfSale");
 
-  let isPriceChange = (!changeableData.minPrice) || Number(house.price) >= Number(changeableData.minPrice) &&
-  (!changeableData.maxPrice) || Number(house.price) <= Number(changeableData.maxPrice)
-
-  Houses.forEach((house) => {
+  
+  Houses2.forEach((house) => {
+    let isPriceChange = ((!changeableData.minPrice) || Number(house.price) >= Number(changeableData.minPrice)) &&
+    ((!changeableData.maxPrice) || Number(house.price) <= Number(changeableData.maxPrice))
     if (
       house.property === changeableData.selectValue && isPriceChange
     ) {
-      result += `<div class="swiper-slide">
-                                <div class="card w-[416px] mt-10 bg-white border shadow" style="border-radius: 10px;">
-                                    <a href="">
-                                        <div class="card-img pt-5 "
-                                            style="background-image: url(${house.imgUrl}); height: 300px; background-repeat: no-repeat;">
-                                            <div class="flex justify-between">
-                                                <div class="w-[76px] ml-9 h-[31px] flex justify-center items-center"
-                                                    style="background-color: #6C60FE ; border-radius: 8px;">
-                                                    <span>Featured</span>
-                                                </div>
-                                                <div class="like w-[36px] me-4 h-[36px] flex justify-center items-center"
-                                                    style="border: 2px solid white; border-radius: 50%; cursor: pointer;">
-                                                    <i class="fa-regular fa-heart"></i>
-                                                </div>
-                                            </div>
-                                            <div class="price grid grid-cols-3 gap-1 place-items-end h-56">
-                                                <span class="self-end">$${house.price}</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class=" max-w-screen-xl mx-auto p-5">
-                                        <a href="#">
-                                            <h3 class="">
-                                                ${house.title}
-                                            </h3>
-                                        </a>
-                                        <p class="">
-                                            <i class="fa-solid fa-location-dot"></i>
-                                            ${house.loc}
-                                        </p>
-                                        <div class="item w-[368px] h-[61px] mt-5 flex items-center justify-around"
-                                            style="background-color: #F7F6FF;">
-                                            <div>
-                                                <span><i class="fa-solid fa-bed me-1"></i>
-                                                    2 Beds
-                                                </span>
-                                            </div>
-                                            <div>
-                                                <span><i class="fa-solid fa-bath me-1"></i>
-                                                    1 Bath
-                                                </span>
-                                            </div>
-                                            <div>
-                                                <span><i class="fa-solid fa-building me-1"></i>
-                                                    5000 Sqft
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <hr class="mt-4">
-                                        <div class="time flex justify-between mt-5">
-                                            <div>
-                                                <p>Listed on: <span style="color: #878789; ">13 Jan 2023</span></p>
-                                            </div>
-                                            <div>
-                                                <p>Listed on: <span style="color: #878789; ">13 Jan 2023</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                </div>`;
+      result += `<div class="card w-[416px] bg-white border shadow" style="border-radius: 10px;">
+              <a href="rent-detail.html">
+                <div class="card-img pt-5 " style="background-image: url(${house.imgUrl}); height: 300px; background-repeat: no-repeat;">
+                  <div class="flex justify-between">
+                    <div class="w-[76px] ml-9 h-[31px] flex justify-center items-center"
+                      style="background-color: #6C60FE ; border-radius: 8px;">
+                      <span style="color: white;">Featured</span>
+                    </div>
+                    <div class="like w-[36px] me-4 h-[36px] flex justify-center items-center"
+                      style="border: 2px solid white; border-radius: 50%; cursor: pointer; ">
+                      <i style="color: white;" class="fa-regular fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="price grid grid-cols-3 gap-1 place-items-end h-56">
+                    <span class="self-end">$${house.price}</span>
+                  </div>
+                </div>
+              </a>              
+              <div class=" max-w-screen-xl mx-auto p-5">
+                <a href="rent-detail.html">
+                  <h3 class="">
+                  ${house.title}
+                  </h3>
+                </a>
+                <p class="">
+                  <i class="fa-solid fa-location-dot"></i>
+                  ${house.loc}
+                </p>
+                <div class="item w-[368px] h-[61px] mt-5 flex items-center justify-around"
+                  style="background-color: #F7F6FF;">
+                  <div>
+                    <span><i class="fa-solid fa-bed me-1"></i>
+                      2 Beds
+                    </span>
+                  </div>
+                  <div>
+                    <span><i class="fa-solid fa-bath me-1"></i>
+                      1 Bath
+                    </span>
+                  </div>
+                  <div>
+                    <span><i class="fa-solid fa-building me-1"></i>
+                      5000 Sqft
+                    </span>
+                  </div>
+                </div>
+                <hr class="mt-4">
+                <div class="time flex justify-between mt-5">
+                  <div>
+                      <p>Listed on: <span style="color: #878789; ">13 Jan 2023</span></p>
+                  </div>
+                  <div>
+                      <p>Listed on: <span style="color: #878789; ">13 Jan 2023</span></p>
+                  </div>
+              </div>
+              </div>
+            </div>`;
     }
   });
-
-  content.innerHTML = result;
+  if (content) {
+    content.innerHTML = result;
+  } 
 }
 HousesOfSale();

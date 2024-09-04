@@ -22,7 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
       step = Math.abs(Math.floor(duration / range)),
       timer = setInterval(() => {
         current += increment;
-        obj.textContent = current;
+        if (obj) {
+          obj.textContent = current;
+        }
         if (current == end) {
           clearInterval(timer);
         }
@@ -311,8 +313,9 @@ function HousesOfSale() {
                 </div>`
     }
   });
-
-  content.innerHTML = result
+  if (content) {
+    content.innerHTML = result
+  }
 }
 HousesOfSale();
 
@@ -402,7 +405,9 @@ function HousesOfRent() {
     }
   });
 
-  content.innerHTML = result
+  if (content) {
+    content.innerHTML = result
+  }
 
 
 

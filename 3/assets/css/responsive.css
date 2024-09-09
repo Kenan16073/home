@@ -5,6 +5,21 @@
     .home-banner form #countries{
         width: 320px;
     }
+    .fillteredOfSale {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .fillteredOfSale .card{
+        width: 100% !important;
+    }
+    .fillteredOfSale .card .card-img{
+        background-size: cover !important;
+    }
+    .fillteredOfSale .card .item{
+        width: 100% !important;
+    }
 }
 @media (max-width: 1250px){
     .contact-info-sec .detail{

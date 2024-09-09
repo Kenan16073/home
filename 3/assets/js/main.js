@@ -13,29 +13,6 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " w3-indigo";
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  function counter(id, start, end, duration) {
-    let obj = document.getElementById(id),
-      current = start,
-      range = end - start,
-      increment = end > start ? 1 : -1,
-      step = Math.abs(Math.floor(duration / range)),
-      timer = setInterval(() => {
-        current += increment;
-        if (obj) {
-          obj.textContent = current;
-        }
-        if (current == end) {
-          clearInterval(timer);
-        }
-      }, step);
-  }
-  counter("count1", 0, 10, 3000);
-  counter("count2", 100, 630, 2500);
-  counter("count3", 0, 420, 3000);
-  counter("count4", 0, 2050, 3000);
-});
-
 let swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
   spaceBetween: 50,
@@ -319,7 +296,6 @@ function HousesOfSale() {
 }
 HousesOfSale();
 
-
 function HousesOfRent() {
 
   let result = "";
@@ -376,27 +352,12 @@ function HousesOfRent() {
                                             </div>
                                         </div>
                                         <hr class="mt-4">
-                                        <div class="time mt-5 flex justify-between items-center">
+                                        <div class="time flex justify-between mt-5">
                                             <div>
-                                                <a href="">
-                                                    <div class="flex items-center">
-                                                        <div>
-                                                            <img style="border-radius: 50%;" class="w-[60px] h-[60px]"
-                                                                src="assets/img/avatar-03.jpg" alt="">
-                                                        </div>
-                                                        <div class="profile ml-3">
-                                                            <a href="">Scott Gwin</a>
-                                                            <p>Minipoliies</p>
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                <p>Listed on: <span>13 Jan 2023</span></p>
                                             </div>
-                                            <div class="book">
-                                                <a href="">
-                                                    <button>
-                                                        Book Now
-                                                    </button>
-                                                </a>
+                                            <div>
+                                                <p>Listed on: <span>13 Jan 2023</span></p>
                                             </div>
                                         </div>
                                     </div>
